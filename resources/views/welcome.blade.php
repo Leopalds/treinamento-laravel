@@ -125,13 +125,6 @@
                     <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
                         Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
                     </div>
-                    <div class="row">
-                        <p>{{ App\Models\User::create([
-                            'name' => 'Pedrin',
-                            'email' => 'pedrin@pedrin.com',
-                            'password' => '123456',
-                        ])}}</p>
-                    </div>
                 </div>
             </div>
         </div>
